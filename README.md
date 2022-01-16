@@ -27,13 +27,13 @@ AWS, PySpark, and pgAdmin were used to perform the ETL process and get the data 
 Unfortunately, this data did not include enough Vine members to conclude whether the Vine members have a bias towards leaving positive reviews (using 5-star reviews). I started by filtering this dataframe to only include reviews with more than 20 votes and with a "helpfulness" rating of above 50%. This filtering was used to start with a more helpful dataframe to conduct an analysis. However, this filtering also cut out all of the Vine users for this dataframe.
 
 Here we can see the empty dataframe for Vine users:
-![](Resources/paid.png)
+![](Resources/paid.PNG)
 
 As opposed to the dataframe created for un-paid reviewers:
-![](Resources/unpaid.png)
+![](Resources/unpaid.PNG)
 
 Before filtering, there were only two reviews made by Vine users (as can be seen in the following screenshot):
-![](Resources/vine_yes.png)
+![](Resources/vine_yes.PNG)
 
 
 Since this data wasn't conducive to the analysis of positivity bias, I would choose a different data set to determine whether Vine users are biased to leave better reviews. Another analysis that could be made using another data set, would be to conduct the same analysis using four-star reviews as well.
