@@ -20,12 +20,10 @@ AWS, PySpark, and pgAdmin were used to perform the ETL process and get the data 
 - Percentage of Vine reviews that were 5 stars: 0%
 - Percentage of non-Vine reviews that were 5 stars: 60.50%
 
-![](Resources/ratios.png)
+![](Resources/ratios.PNG)
 
 
 ## Summary
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
-
 Unfortunately, this data did not include enough Vine members to conclude whether the Vine members have a bias towards leaving positive reviews (using 5-star reviews). I started by filtering this dataframe to only include reviews with more than 20 votes and with a "helpfulness" rating of above 50%. This filtering was used to start with a more helpful dataframe to conduct an analysis. However, this filtering also cut out all of the Vine users for this dataframe.
 
 Here we can see the empty dataframe for Vine users:
@@ -38,4 +36,4 @@ Before filtering, there were only two reviews made by Vine users (as can be seen
 ![](Resources/vine_yes.png)
 
 
-Since this data wasn't conducive to the analysis of positivity bias, I would choose a different data set to determine whether Vine users are biased to leave better reviews. Another analysis that could be made using another data set, would be to conduct the same analysis using four-star reviews as well. 
+Since this data wasn't conducive to the analysis of positivity bias, I would choose a different data set to determine whether Vine users are biased to leave better reviews. Another analysis that could be made using another data set, would be to conduct the same analysis using four-star reviews as well.
